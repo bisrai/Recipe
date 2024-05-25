@@ -1,0 +1,48 @@
+.CardContainer {
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    color: white;
+    text-align: right;
+}
+
+.CardSection {
+    text-align: right;
+    width: 100%;
+    padding: 2rem;
+}
+
+.CardSection h1 {
+    font-size: 2rem;
+    margin-top: 25rem;
+}
+
+.CardSection p {
+    font-size: 0.8rem;
+
+}
+
+/* -----------------------MOBILE STYLES------------------------- */
+
+@media (max-width:430px) {
+    .CardContainer {
+        height: 440px;
+        transition: all 0.3s ease-in;
+    }
+    
+    .CardSection {
+        padding: 1rem;
+    }
+    
+    .CardSection h1 {
+        font-size: 1.6rem;
+        margin-top: 17rem;
+    }
+    
+    .CardSection p {
+        font-size: 0.6rem;
+    
+    }
+
+}

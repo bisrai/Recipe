@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Sorts Mill Goudy", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  font-family: "Sorts Mill Goudy", serif;
+  font-weight: 400;
+  font-style: normal;
+  scroll-behavior: smooth;
+  background-color: aliceblue;
+}
+
+.btn {
+  padding: 10px 30px 10px;
+  background-color: transparent;
+  color: #f1c728 !important;
+  border: 1px solid #f1c728;
+  border-radius: 3px;
+}
+
+.btn:hover {
+  color: black !important;
+  background-color: #f1c728;
+  border: 1px solid #f1c728;
+}
